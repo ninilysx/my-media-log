@@ -1,0 +1,49 @@
+{
+  "filmes": [
+    {
+      "id": 1,
+      "nome": "A Viagem de Chihiro",
+      "foto": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+      "descricao": "Uma menina de 10 anos entra em um mundo mágico habitado por espíritos e precisa encontrar um jeito de salvar seus pais.",
+      "diretor": "Hayao Miyazaki",
+      "ano": 2001,
+      "duracao": "125 min",
+      "genero": "Animação / Fantasia",
+      "pais": "Japão",
+      "nota": 5,
+      "favorito": true,
+      "status": "finalizado",
+      "resenha": ""
+    },
+    {
+      "id": 2,
+      "nome": "Parasita",
+      "foto": "https://image.tmdb.org/t/p/w500/igw938inx6tgQQj5jNbgtkmznTH.jpg",
+      "descricao": "Uma família pobre arma um plano para trabalhar para uma família rica, mas as coisas saem do controle.",
+      "diretor": "Bong Joon-ho",
+      "ano": 2019,
+      "duracao": "132 min",
+      "genero": "Drama / Suspense",
+      "pais": "Coreia do Sul",
+      "nota": 5,
+      "favorito": false,
+      "status": "finalizado",
+      "resenha": ""
+    },
+    {
+      "id": 3,
+      "nome": "Interestelar",
+      "foto": "https://image.tmdb.org/t/p/w500/nCbkOyOMTEwlEV0LtCOvCnwEONA.jpg",
+      "descricao": "Um grupo de exploradores viaja através de um buraco de minhoca no espaço em uma tentativa de garantir a sobrevivência da humanidade.",
+      "diretor": "Christopher Nolan",
+      "ano": 2014,
+      "duracao": "169 min",
+      "genero": "Ficção Científica / Drama",
+      "pais": "EUA",
+      "nota": 4,
+      "favorito": true,
+      "status": "finalizado",
+      "resenha": ""
+    }
+  ]
+}

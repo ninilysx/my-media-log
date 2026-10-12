@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Media Log 🎬</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Cabeçalho do site -->
+  <header class="cabecalho">
+    <h1>🎬 My Media Log</h1>
+    <p>Meu diário pessoal de mídias</p>
+  </header>
+
+  <main class="conteudo">
+    <h2>Filmes</h2>
+
+    <!--
+      Aqui é onde os filmes vão aparecer.
+      Começa vazio: o JavaScript vai preencher isso dinamicamente,
+      lendo os dados do json-server.
+    -->
+    <div id="lista-filmes" class="grade-itens">
+      <p class="carregando">Carregando filmes...</p>
+    </div>
+  </main>
+
+  <!-- Nosso JavaScript (fica no final para o HTML já estar carregado) -->
+  <script src="js/script.js"></script>
+</body>
+</html>

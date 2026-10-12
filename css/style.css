@@ -1,0 +1,133 @@
+/* ===== Reset básico ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Estilo geral da página ===== */
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background-color: #14121f;
+  color: #eaeaea;
+  line-height: 1.5;
+}
+
+/* ===== Cabeçalho ===== */
+.cabecalho {
+  background: linear-gradient(135deg, #6c3cff, #b24bff);
+  text-align: center;
+  padding: 40px 20px;
+  color: #fff;
+}
+
+.cabecalho h1 {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+}
+
+.cabecalho p {
+  opacity: 0.9;
+}
+
+/* ===== Área de conteúdo ===== */
+.conteudo {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.conteudo h2 {
+  margin-bottom: 20px;
+  border-left: 4px solid #b24bff;
+  padding-left: 12px;
+}
+
+/* ===== Grade de itens (cards) ===== */
+.grade-itens {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* ===== Card de um item ===== */
+.card {
+  background-color: #221f33;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-corpo {
+  padding: 14px;
+}
+
+.card-corpo h3 {
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+.card-meta {
+  font-size: 0.85rem;
+  color: #a79fc9;
+  margin-bottom: 8px;
+}
+
+.card-descricao {
+  font-size: 0.85rem;
+  color: #c9c4de;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== Estrelas de nota ===== */
+.estrelas {
+  color: #ffcc33;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+}
+
+/* ===== Coração de favorito ===== */
+.favorito-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+/* ===== Mensagem de carregando / erro ===== */
+.carregando,
+.erro {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: #a79fc9;
+}
+
+.erro {
+  color: #ff7676;
+}
