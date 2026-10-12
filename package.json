@@ -1,0 +1,11 @@
+{
+  "name": "my-media-log",
+  "version": "1.0.0",
+  "description": "Um diário pessoal de mídias (filmes, séries, animes, mangás, livros, músicas) feito com HTML, CSS, JavaScript e json-server.",
+  "scripts": {
+    "server": "json-server db.json"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}
